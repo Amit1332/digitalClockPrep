@@ -361,6 +361,32 @@ select {
     }
 }
 
+@media (max-width:663px) {
+    .container {
+        flex-direction: column;
+        padding: 1rem 1rem;
+        height: auto;
+        position: relative;
+    }  
+    .time-counter{
+        position: absolute;
+        top: -135vh;
+        width: 100%;
+    }
+
+    .messages {
+        height: 60px;
+        font-size: 15px;
+        position: absolute;
+        top: 23vh;
+    }
+
+    .container .set-day-time-routine{
+        margin-top: 190px;
+    }
+
+}
+
 @media (max-width:600px) {
     .container {
         flex-direction: column;
