@@ -14,19 +14,19 @@ function clockStart() {
     // set the default time to print message
     if (hrs <= 10 && AMPM === "AM") {
         greeting_messaage.innerHTML = "Good Morning || Wakeup"
-        img.src = './assets/Component 30 – 1.png'
+        // img.src = './assets/Component 30 – 1.png'
     }
     else if (hrs > 10 && hrs <= 16) {
         greeting_messaage.innerHTML = "Good AfterNoon || Lunch"
-        img.src = './assets/Group 5183.png'
+        // img.src = './assets/Group 5183.png'
     }
     else if (hrs > 16 && hrs <= 20) {
         greeting_messaage.innerHTML = "Good Evening || Walk"
-        img.src = './assets/lunch_image.png'
+        // img.src = './assets/lunch_image.png'
     }
     else {
         greeting_messaage.innerHTML = "Good Night || Sleep"
-        img.src = './assets/AM_svg.png'  
+        // img.src = './assets/AM_svg.png'  
     }
 
     // to set AM PM
@@ -72,22 +72,22 @@ function setEvent() {
     set_time_routine[3].innerHTML = `Night Time : ${item4.innerText}`
 
     if (parseInt(item1.value) === hrs) {
-        greeting_messaage.innerHTML = "Grab Some Healthy Breakfast !!"
+        // greeting_messaage.innerHTML = "Grab Some Healthy Breakfast !!"
         wish_messaage.innerHTML = "Good Morning !! Wakeup !!"
         img.src = './assets/Component 30 – 1.png'
     }
     else if (parseInt(item2.value) === hrs) {
-        greeting_messaage.innerHTML = "Let's have Lunch !!"
+        // greeting_messaage.innerHTML = "Let's have Lunch !!"
         wish_messaage.innerHTML = "Good Afternon !! Lunch !!"
         img.src = './assets/Group 5183.png'
     }
     else if (parseInt(item3.value) === hrs) {
-        greeting_messaage.innerHTML = "Get Some Tea.. It's Evening !!"
+        // greeting_messaage.innerHTML = "Get Some Tea.. It's Evening !!"
         wish_messaage.innerHTML = "Good Evening !! Nap !!"
         img.src = './assets/lunch_image.png'
     }
     else if (parseInt(item4.value) === hrs) {
-        greeting_messaage.innerHTML = "Close Your Eyes & go to sleep !!"
+        // greeting_messaage.innerHTML = "Close Your Eyes & go to sleep !!"
         wish_messaage.innerHTML = "Good Night !! Sleep !!"
         img.src = './assets/AM_svg.png'
     }
