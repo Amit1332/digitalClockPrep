@@ -59,6 +59,7 @@ function setEvent() {
     let selectItem2 = selectOpt[1].selectedIndex
     let selectItem3 = selectOpt[2].selectedIndex
     let selectItem4 = selectOpt[3].selectedIndex
+    console.log(selectItem1)
 
     let item1 = selectOpt[0].options[selectItem1]
     let item2 = selectOpt[1].options[selectItem2]
